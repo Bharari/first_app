@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
-# Use sqlite3 as the database for Active Record
+# Use posgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -39,4 +39,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Use Ruby
-ruby '2.1.1'
+ruby '2.0.0'
