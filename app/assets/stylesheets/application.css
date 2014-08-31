@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+#header { height: 4em; padding-top: 1em; text-align: center;
+  background: #993120; color: #FFFFFF; }
+#header h1 { margin: 0; padding: 0; }
+#background {min-height:800px; margin: 10;
+    position: absolute;width:570px;top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+background-image: image-url("<%= asset_path(pamplete.png)%>");
+}
+
+#main { min-height: 500px; background: #7F4AFA; }
+#navigation { float: left; width: 180px; min-height: 480px; padding: 10px;
+  background: #94B26F; color: #4C2516; }
+#content { padding: 10px; background: #333333; color:#9E9E9E;}
+#footer { clear: both; height:  2.5em; text-align: right;
+  background: #4C2516 repeat-y 0 0; color: #F2DC87; }
+#footer p { margin: 0; padding: 0.5em 1em; }
